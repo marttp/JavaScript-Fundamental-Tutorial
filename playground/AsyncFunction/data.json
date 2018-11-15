@@ -16,5 +16,19 @@
             "name": "Alaster",
             "job": "Receptionist"
         }
+    ],
+    "books": [
+        {
+            "id": 0,
+            "name": "Java"
+        },
+        {
+            "id": 1,
+            "name": "Python"
+        },
+        {
+            "id": 2,
+            "name": "Golang"
+        }
     ]
 }

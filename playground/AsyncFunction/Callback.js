@@ -2,13 +2,13 @@ const data = require('./data.json')
 
 // ! Normal function
 // exports.fetchData = () => {
-//     return data
+//     return data.persons
 // }
 
 // ! Implement asynchronous function
 // exports.fetchData = () => {
 //     setTimeout(() => {
-//         return data
+//         return data.persons
 //     }, 2 * 1000)
 // }
 // * After this. test-async get undefined because async funtion don't wait result from function
@@ -16,17 +16,16 @@ const data = require('./data.json')
 // ! Implement callback in parameter : Higher Order Fuction = use function as a parameter
 // exports.fetchData = (callback) => {
 //     setTimeout(() => {
-//         callback(data)
+//         callback(data.persons)
 //     }, 2 * 1000)
 // }
 
 // ? What's about if I use chain of async function
 // * It's call "Callback Hell"
 
-
 exports.fetchData = (callback) => {
     setTimeout(() => {
-        callback(data)
+        callback(data.persons)
     }, 2 * 1000)
 }
 
