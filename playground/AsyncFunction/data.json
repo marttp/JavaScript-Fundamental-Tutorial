@@ -1,0 +1,20 @@
+{
+    "persons": [
+        {
+            "name": "James",
+            "job": "System Analyst"
+        },
+        {
+            "name": "Victor",
+            "job": "Software Engineer"
+        },
+        {
+            "name": "David",
+            "job": "Consultant"
+        },
+        {
+            "name": "Alaster",
+            "job": "Receptionist"
+        }
+    ]
+}
